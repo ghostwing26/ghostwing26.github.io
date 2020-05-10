@@ -1,0 +1,188 @@
+.navbar.active {
+    background-color: #f5f6fa;
+}
+
+a.list-group-item {
+    font-family: 'Noto Sans TC';
+    font-size: 20px;
+    text-decoration: none;
+}
+
+a.list-group-item:hover {
+    background-color: #b2bec3;
+    color: #f5f6fa;
+    text-decoration: none;
+}
+
+.jumbo-bg-img {
+    background-image: url("/img/ball.jpg");
+    background-size: cover;
+    height: 650px;
+}
+
+.jumbotron-text {
+    width: 550px;
+    height: 300px;
+    margin: 3em 1.5em 0 auto;
+    padding: 20px;
+    background-color: rgb(255, 255, 255, 0.3);
+}
+
+.jumbotron-text h2 {
+    font-family: 'Noto Sans JP', system-ui;
+    font-size: 3em;
+    font-weight: 600;
+    color: #0c2461;
+}
+
+.jumbotron-text p {
+    font-family: 'Jost', system-ui;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.nav-bg-color {
+    background-color: transparent;
+}
+
+.nav-bg-color .navbar-toggler-icon {
+    background-color: transparent;
+    background-image: url(/img/burger.png);
+    width: 30;
+    height: 30;
+}
+
+.nav-href {
+    font-size: 17px;
+    text-decoration: none;
+    color: #009432;
+    font-family: 'PT Sans', sans-serif, system-ui;
+    
+}
+
+.nav-href:hover {
+    color: #34495e;
+    text-decoration: none;
+}
+
+
+.light-blue {
+    background-color: #82ccdd;
+    color: #222f3e;
+}
+
+.red-white {
+    background-color: #EA2027;
+    color:  #ffffff;
+}
+
+.dark-grey {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+}
+
+.white-dark {
+    background-color: #ffffff;
+    color: #1e272e;
+}
+
+.deep-orange {
+    background-color: #E65100;
+    color: white;
+}
+
+.mid-blue {
+    background-color: #273c75;
+    color: white;
+}
+
+.white-blue {
+    background-color: white;
+    color: #0652DD;
+}
+
+.blue-yellow {
+    background-color: #FFC312;
+    color: #192a56;
+}
+
+.custom-td td {
+    padding: 15px;
+}
+
+.list-logo {
+    width: 3rem;
+    padding: 0;
+}
+
+.badge {
+    font-family: 'Noto Sans JP', sans-serif, system-ui;
+}
+
+
+@media (max-width: 767.98px) {
+
+    .navbar-collapse {
+        background-color: #f5f6fa;
+        padding: 1em;
+    }
+
+    .jumbo-bg-img {
+        width: auto;
+        height: 370px;
+    }
+
+    .jumbotron-text {
+        margin: 2em;
+        width: auto;
+        height: auto;
+    }
+
+    .custom-td td {
+        padding: 4px;
+    }
+    
+    .list-logo {
+        width: 1.5rem;
+        padding: 0;
+    }
+}
+
+
+
+@media screen and (max-width: 480px) {
+    .jumbo-bg-img {
+        width: auto;
+        height: auto;
+    }
+
+    .jumbotron-text {
+        margin: 2em;
+        width: auto;
+        height: auto;
+    }
+
+    td {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    /* .jumbo-bg-img {
+        width: auto;
+        height: auto;
+    } */
+
+    .navbar-brand {
+        display: none;
+    }
+
+    .jumbotron-text h2 {
+        font-size: 2em;
+    }
+
+
+    td {
+        font-size: 10px;
+    }
+}
